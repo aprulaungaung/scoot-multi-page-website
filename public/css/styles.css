@@ -1,0 +1,1288 @@
+body{
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    
+   
+}
+
+
+
+.titlebar{
+    position: relative;
+    top:0;
+    left:0;
+    width: 40%;
+    padding: 20px 150px;
+}
+
+.brand{
+    font-size: 20px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.menu-package{
+    position: relative;
+    width: 40%;
+    top:-50px;
+    left: 20%;
+
+}
+.sub-menu{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    cursor: pointer
+   
+}
+
+#checkbox{
+    display: none;
+   
+}
+
+.hamburger{
+    position: absolute;
+    left: 50px;
+    top:60px;
+    cursor:pointer;
+    display: none;
+
+}
+.hamburger-icon{
+    cursor:pointer;
+}
+
+.front-container{
+    position: relative;
+    top: -100px;
+    left: -20px;
+    width: 100vw;
+    min-height: 100vh;
+  
+ 
+   
+}
+
+.inner-bag{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    
+   
+}
+
+.inner-bag::-webkit-scrollbar{
+    display: none;
+  }
+
+
+
+.top1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    background-image: url("../starter-code/assets/images/home-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.top1Div{
+    position: relative;
+    top: 150px;
+    width: 28%;
+    
+    display: inline-block;
+}
+
+.middle{
+    position: relative;
+  
+    left: -50px;
+}
+
+.slogan{
+    position: relative;
+    width: 35%;
+    top: 100px;
+    left: 20%;
+    font-size: 40px;
+    font-weight:bolder;
+    letter-spacing: 3px;
+
+}
+
+.line{
+    position: relative;
+    top:-50px;
+    left: -30px;
+    height: 11px;
+    
+}
+.left{
+    left: 12%;
+    top: 100px;
+}
+.right{
+    top: 180px;
+}
+
+.line2{
+    position: relative;
+    top: -50px;
+    height: 100px;
+}
+.circle{
+    position: absolute;
+    top:70%;
+    right: -30px;
+}
+
+.iconCircle{
+    height: 50px;
+}
+
+/* top2 section////////////////////////////// */
+
+.chain-container{
+    position: relative;
+    top: 85px;
+    left: -120px;
+    width: 85%;
+}
+
+.chain,.locket{
+    position: relative;
+    width: 20%;
+    display: inline-block;
+}
+
+.chain{
+    height: 10px;
+    width: 25%;
+    top: -20px;
+    background-color: #BAD7E9;
+    opacity: 0.5;
+}
+
+.icon{
+    height: 60px;
+}
+
+.locket{
+    height: 60px;
+    width: 60px;
+   
+}
+
+.text-container{
+    position: relative;
+    top: 100px;
+    width: 90%;
+    left: 7%;
+}
+
+.top2Text{
+    position: relative;
+    width: 25%;
+    top: 20px;
+    margin-right: 70px;
+    display: inline-block;
+}
+
+.top2 p{
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/* middle1 section //////////////////// */
+
+.middle1,.middle2{
+    position: relative;
+    top: 190px;
+    width: 90%;
+    left: 16%;
+}
+
+.middle1 h1{
+    letter-spacing: 3px;
+}
+
+.left-window, .right-window{
+    position: relative;
+    width: 30%;
+    display: inline-block;
+}
+
+.front-pic, .inner-pic{
+    position: relative;
+    height: 300px;
+   
+    border-radius: 50%;
+}
+
+.middle1 .front-pic{
+
+    left: 90%;
+}
+
+.arrow{
+    position: absolute;
+    height: 100px;
+    top: 150px;
+    z-index: 1;
+}
+
+.semi-circle{
+    position: absolute;
+    height: 300px;    
+}
+
+.middle1 .semi-circle{
+    top: 5px;
+    left: 190%;
+}
+
+
+/* middle2 section /////////////////////////// */
+
+.middle2{
+   
+    top: 300px;
+}
+.middle2 .front-pic{
+    left: 0;
+}
+
+.middle2 .text-wrapper{
+    position: relative;
+    left: 75%;
+    top: -70px;
+}
+
+.middle2 .arrow{
+    top: 20px;
+    left: -195px;
+    z-index: 1;
+}
+
+.middle2 .front-pic{
+    left: -50px;
+}
+
+.middle2 .semi-circle{
+    left: -400px;
+}
+
+/* middle3 section //////////////////////////////////// */
+
+
+.middle3{
+
+    position: relative;
+   
+    top: 350px;
+   
+}
+
+.middle3 .front-pic{
+    position: relative;
+    left: 120%;
+    top: 60px;
+}
+
+.middle3 .semi-circle{
+    position: absolute;
+    top: 60px;
+    left: 210%;
+}
+
+.middle3 .arrow{
+    top: 120px;
+    left: 160%;
+}
+
+/* footer section */
+
+.footer{
+   
+   
+    background-color: #495579;
+    width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.sign-up, .apple, .google{
+    position: relative;
+    display: inline-block;
+    top: 20px;
+}
+
+.apple,.google{
+    left: 30%;
+    margin-right: 15px;
+}
+
+.sign-up{
+    left: 10%;
+    width: 30%;
+    letter-spacing: 3px;
+}
+
+.half-circles{
+    position: relative;
+    height: 80px;
+    left: 58%;
+}
+
+.bottom-line{
+    position: relative;
+    width: 100%;
+    top: 70px;
+    height: 75px;
+    background-color:#263159;
+}
+
+
+.bottom-nav,.bottom-icon{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.bottom-nav{
+    width: 200%;
+    left: -50px;
+    top: -23px;
+}
+
+.bottom-icon{
+
+    top: -140px;
+    left: 80%;
+}
+
+ .social-media{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-button{
+    position: relative;
+    top: -115px;
+    left: 65%;
+}
+
+.button{
+    position : relative;
+    width: 110px;
+    height: 40px;
+    background-color: #FFB100;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+/*About section ///////////////////////////////////// */
+
+.inner-page{
+    position: relative;
+    top: -60px;
+    width: 1200px;
+   
+    color: #fff;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.inner-page::-webkit-scrollbar{
+    display: none;
+  }
+
+/* up1 section ///////////////////////////////////////// */
+
+.up1{
+    position: relative;
+   
+    width: 100vw;
+    height: 200px;
+    top: -20px;
+    background-image: url("../starter-code/assets/images/about-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.up1 h1, .up1 .icon-circle{
+    position: relative;
+    display: inline-block;
+}
+
+.up1 .icon-circle{
+    height: 50px;
+    left: 61%;
+    top: 65px;
+}
+
+.up1 h1{
+    top: 55px;
+    left: 10%;
+    font-size: 35px;
+}
+
+.text-box{
+    position: relative;
+    color: black;
+    opacity: 0.6;
+}
+
+/* up2 section /////////////////////////////////////////////// */
+
+.up2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.up2 .inner-pic{
+    position: relative;
+    left: 115%;
+    top: 80px;
+}
+
+.up2 .arrow{
+    top: 235px;
+    left: 85%;
+}
+
+.up2 .semi-circle{
+    top: 80px;
+    left: 210%;
+}
+
+
+/* mid1 section ////////////////////////////////////// */
+
+.mid1{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.mid1 .inner-pic{
+    left: 25%;
+}
+
+.mid1 .arrow{
+    top: 0;
+    left: -70px;
+}
+
+.mid1 .semi-circle{
+    left: -220px;
+}
+
+.mid1 .text-box{
+    left: 120%;
+    top: -50px;
+}
+
+.mid1 .left-window{
+    top: 50px;
+}
+
+/* mid2 section //////////////////////////////////// */
+
+.mid2{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    top: 80px;
+    color: black;
+    
+}
+
+.mid2Div{
+
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: block;
+   
+}
+
+.mid2 .inner-pic{
+
+    height: 200px;
+}
+
+.mid2 .pic-container, .mid2 .text-box{
+
+    width: 30%;
+   
+    display: inline-block;
+}
+
+.mid2 .number{
+    position: relative;
+    left: 40%;
+    top: -30px;
+    width: 75px;
+    height: 75px;
+    background-color: #FFB100;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    border-radius: 50%;
+}
+
+.mid2 h1 {
+    position: relative;
+    left: 42%;
+    opacity: 0.6;
+    margin-bottom: 80px;
+    
+}
+
+.mid2 .text-box{
+    width: 20%;
+}
+
+.mid2 .text-mid{
+    margin: 0 130px;
+}
+
+
+/* FAQ section /////////////////////////// */
+
+.faq{
+
+    position: relative;
+    width: 100%;
+    height: 750px;
+    color: black;
+}
+
+.faq h1{
+    position: relative;
+    width: 30%;
+    margin: 50px 0;
+    margin-top: 80px;
+    opacity: 0.7;
+    left: 50%;
+}
+
+.sub-title h2{
+    position: relative;
+    left: 25%;
+    letter-spacing: 3px;
+}
+
+.faq .left-window, .faq .right-window{
+
+    width: 45%;
+    
+    display: inline-block;
+}
+
+.faq .left-window{
+    position: absolute;
+}
+
+.faq .right-window{
+    float: right;
+}
+
+
+.faq .sub-title, .faq .question{
+
+    display: block;
+    opacity: 0.7;
+}
+
+.faq .sub-title{
+    position: relative;
+    margin: 20px 0 320px 200px;
+}
+
+
+.faq .question{
+
+    background-color: #BDCDD6;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+}
+
+.question p{
+    position: relative;
+    top:-30px;
+    font-size: 12px;
+}
+
+.arrow-head{
+    
+    position: relative;
+    left: 90%;
+    top: -55px;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 768px){
+
+    .inner-bag, .inner-page{
+        
+        width: 768px;
+       
+    }
+
+    .top1{
+        
+        background-size:contain;
+    }
+
+    .titlebar{
+       
+        width: 60%;
+    }
+
+    .brand{
+        position: relative;
+        left:-100px;
+        
+    }
+
+    .menu-package{
+        
+        width: 65%;
+        left: 15%;
+    }
+
+    .nav-button{
+
+        left: 83%;
+    }
+
+    .top1,.top2,.middle1, .middle2, .middle3, .up1,.up2,.mid1,.mid2, .faq{
+       
+        width: 100%;
+        
+    }
+
+    .slogan{
+       
+        width: 55%;
+        top: 30px;
+        left: 20%;
+        font-size: 40px;
+        text-align: center;
+    
+    }
+
+    .top1Div{
+       
+        top: 30px;
+        width: 70%;
+        left: 100px;
+        text-align: center;
+       
+    }
+
+    .middle{
+        top: -15px;
+    }
+
+    .line{
+       
+        display: none;
+        
+    }
+
+    .line2{
+       
+        top: -70px;
+        left: -50%;
+    }
+
+    .top1-button{
+        position: relative;
+        left: 40%;
+    }
+    .iconCircle{
+        position: relative;
+        top: -65px;
+        left: 10px;
+    }
+    .circle{
+        
+        right: -10px;
+    }
+
+    .chain-container{
+        width: 70%;
+        top: 120px;
+        left: -150px;
+        transform: rotate(90deg);
+
+    }
+
+    .chain{
+        top: -27px;
+        width: 15%;
+    }
+    .text-container{
+        position: relative;
+        width: 90%;
+        top: -135px;
+        left: 30%;
+    }
+
+    .chain-container, .text-container{
+
+        display: inline-block;
+    }
+    
+    .top2Text{
+        position: relative;
+        display: block;
+        width: 60%;
+        margin-bottom: 60px;
+    }
+
+    .top2 .icon{
+        height: 70px;
+       
+    }
+
+    .locket{
+        left: 0;
+        margin-right:8px;
+    }
+
+     .left-window, .right-window{
+
+        display: block;
+        width: 45%;
+    }
+
+    .middle1 .left-window{
+        position: relative;
+       
+        top:200px;
+        left:10%;
+        text-align: center;
+    }
+
+    .middle1 .right-window{
+        position: relative;
+        top: -550px;
+        left: -28%;
+    }
+
+    .front-pic,.semi-circle{
+
+        height: 350px;
+    }
+
+    .middle1 .semi-circle{
+        left: 210%;
+    }
+
+    .middle1 .arrow{
+
+        height: 130px;
+        left: 60%;
+        top:230px;
+    }
+
+    .middle1 h1, .middle2 h1, .middle3 h1{
+        width: 110%;
+        font-size: 40px;
+    }
+    .middle1-button{
+       position: relative;
+       top: 30px;
+       left: 40%;
+    }
+
+
+    .middle2 .front-pic{
+
+        left: 20px;
+    }
+
+    .middle2 .arrow{
+
+        height: 120px;
+        top: 0;
+    }
+
+    .middle2 .text-wrapper{
+
+        position: relative;
+        left: 0;
+        top: 50px;
+        text-align: center;
+
+    }
+
+    .middle2-button{
+        position: relative;
+        top: 50px;
+        left: 40%;
+    }
+
+    
+
+    .middle3 .left-window{
+        
+        top: 550px;
+        
+       
+    }
+
+    .middle3 .right-window{
+       
+        top: -200px;
+       
+    }
+
+    .middle3 .text-msg{
+        position: relative;
+        left: 50%;
+        text-align: center;
+    }
+
+    .middle3 .front-pic {
+        left: 45%;
+    }
+
+    .middle3 .semi-circle{
+        left: 150%;
+    }
+
+    .middle3 .arrow{
+        height: 120px;
+        left: 55%;
+    }
+   
+    .middle3-button{
+        position: relative;
+        top: 50px;
+        left: 40%;
+    }
+
+   .footer{
+    
+    width: 768px;
+   
+  
+   }
+   
+   .footer .sign-up, .footer .halfCircle-container{
+    display: block;
+   }
+
+   .sign-up{
+    left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+ .half-circles{
+    position: relative;
+    height: 130px;
+    left: 0;
+    top:-20px;
+
+}
+  .apple, .google{
+
+    left: 25%;
+    top:50px;
+  }
+
+  .bottom-line{
+    position: relative;
+    top:-3px;
+  }
+
+  
+
+/* inner page section /////////////////////////// */
+
+.inner-pic, .inner-page .semi-circle{
+    height: 200px;
+}
+.inner-page .arrow{
+    height: 70px;
+}
+
+.inner-page h1{
+    font-size: 25px;
+}
+
+.up2 .inner-pic{
+  
+    left: 125%;
+    top: -150px;
+}
+
+.up2 .arrow{
+    top: -50px;
+    left: 100%;
+}
+
+.up2 .semi-circle{
+    top: -150px;
+    left: 190%;
+}
+
+.up2 .text-box{
+
+    width: 90%;
+    left: 5%;
+    top: 20px;
+}
+
+.mid1 .text-box{
+    width: 90%;
+    top: -150px;
+}
+
+.mid2 .text-mid{
+    margin: 0 100px;
+}
+
+.faq .sub-title{
+   
+    margin: 20px 0 320px 10px;
+}
+
+.faq .right-window{
+    right: 20px;
+}
+  
+}
+
+
+@media (max-width: 500px){
+
+    .inner-bag, .inner-page{
+        width: 500px;
+    }
+
+    .brand{
+        position: relative;
+        left:15%;
+        top: -50px;
+    }
+
+    .menu-package{
+        position: absolute;
+        width: 35%;
+        left:-20%;
+        top: 50px;
+        color: #fff;
+        z-index: 1;
+    }
+
+    .sub-menu{
+        display: block;
+        line-height: 3;
+        text-decoration:underline;
+    }
+    .hamburger{
+        display: inline-block;
+        top:10px;
+    }
+
+    #checkbox:checked ~ .menu-package{
+        left: -5%;
+        transition-duration: 1s;
+    }
+
+    .nav-button{
+
+        display: none;
+    }
+
+    /* .top1,.top2,.middle1, .middle2, .middle3{
+        width: 100%;
+    } */
+
+    .top1{
+        height: 500px;
+        background-size: cover;
+        background-position:-600px 0;;
+    }
+
+    .line2{
+        left: -90%;
+    }
+
+    .top1-button{
+       
+        left: 35%;
+    }
+    .top1 .iconCircle{
+        display: none;
+    }
+
+    .top2 .chain{
+        display: none;
+    }
+
+    .chain-container{
+        width: 70%;
+        top: 0;
+        left: 0;
+        transform: rotate(0);
+        display: block;
+
+    }
+
+    .top2 .icon{
+        position: absolute;
+        height: 50px;
+    }
+
+    .top2Text{
+        position: relative;
+        top: 130px;
+        left: -15%;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 120px;
+    }
+
+    .top2 .icon1{
+        left: 340%;
+        top: 20px;
+    }
+
+    .top2 .icon2{
+        left: 230%;
+        top: 240px;
+    }
+
+    .top2 .icon3{
+        left: 115%;
+        top:450px;
+    }
+
+    .top2 h4{
+        font-size: 20px;
+    }
+    .top2 p{
+        font-size: 14px;
+    }
+
+    .semi-circle{
+        display: none;
+    }
+
+    .middle1 .front-pic{
+        left:60%;
+    }
+    .middle1 .arrow{
+        top: 160px;
+        left: 60%;
+    }
+
+    .middle2 .text-wrapper{
+        position: relative;
+        left: 30%;
+    }
+
+    .middle2-button{
+        position: relative;
+        left: 20%;
+    }
+
+    .middle3 .text-msg{
+        position: relative;
+        left: 70%;
+        top: 100px;
+    }
+
+    .middle3-button{
+        position: relative;
+        left: 20%;
+    }
+
+    .footer{
+        width: 500px;
+    } 
+
+    .apple, .google{
+        position: relative;
+        left: 15%;
+    }
+
+    .bottom-line{
+        position: relative;
+        width: 100%;
+        top: 70px;
+        height: 300px;
+        background-color:#263159;
+    }
+
+    
+
+    .bottom-icon{
+        position: relative;
+        top: -30px;
+        left: 35%;
+    }
+
+    .up1 h1, .up1 .icon-circle{
+        display: block;
+       
+    }
+
+    .up1 .icon-circle{
+        height: 40px;
+        left: 35%;
+       
+    }
+    
+    .up1 h1{
+        top: 35px;
+        left: 40%;
+        font-size: 35px;
+    }
+
+    .inner-page .left-window, .inner-page .right-window{
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+
+    .up2 .left-window{
+        position: relative;
+        top: 250px;
+        left: 10%;
+    }
+
+    .up2 .right-window{
+        top: 100px;
+        left: -90%;
+    }
+
+    .up2 .arrow{
+        left: 150%;
+    }
+
+    .mid1 .inner-pic{
+        left:10%;
+    }
+
+    .mid1 .arrow{
+        top: 20px;
+    }
+    .mid1 .right-window{
+        top: 250px;
+        left: -80%;
+    }
+
+    .mid2Div .pic-container{
+        position: relative;
+        display: block;
+        left: 5%;
+    }
+
+    .pic-container .inner-pic{
+        height: 100px;
+        margin-bottom: 65px;
+    }
+
+    .mid2 .number{
+       
+        top: -80px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+      
+    }
+    .mid2 h1{
+        position: relative;
+       margin: 100px 0;
+    }
+
+    .mid2Div .text-box{
+        display: block;
+        width: 50%;
+        text-align: left;
+        top: -650px;
+        left: 40%;
+        margin-bottom: 120px;
+    }
+    .text-box p{
+        font-size: 12px;
+    }
+
+    .mid2Div .text-mid{
+        position: relative;
+        left: 20%;
+    }
+
+    .faq h1{
+        position: relative;
+        top: 100px;
+    }
+
+    .faq .right-window{
+        float: none;
+        left: 8%;
+        top: 100px;
+    }
+
+    .arrow-head{
+        left: 40%;
+        
+    }
+
+     /* .q-a-package .mid-question{
+        position: relative;
+        top: 80px;
+    }  */
+
+
+    .faq .title1{
+        position: relative;
+        margin: 0;
+        top: 40px;
+        left: -40%;
+    }
+
+    .faq .title2{
+
+        position: relative;
+        margin: 50px 0;
+        left: -40%;
+        top: 400px;
+
+    }
+    .faq .upper-part{
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .faq .lower-part{
+        position: relative;
+        top: 75px;
+    }
+
+}
+
